@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Masterpiece EasyStay</title>
+</head>
+<body>
+    <section id="header">
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo" class="logo">
+        </a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active1" href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-basket"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-basket mobile-icon1" aria-hidden="true"></i></a>
+            <i id="bar" class="fas fa-outdent mobile-icon2"></i>
+        </div>
+    </section>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="slide" style="background-image: url('/img/products/f7.jpg');"></div>
+    <div class="slide" style="background-image: url('/img/products/f8.jpg');"></div>
+    <div class="slide" style="background-image: url('/img/products/f5.jpg');"></div>
+
+    <div class="overlay">
+      <h1 id="hero-heading">Find Your Next Apartment</h1>
+      <p id="hero-subtext">Simple, secure, and verified rentals across the city.</p>
+    </div>
+
+    <div class="nav-buttons">
+      <button onclick="prevSlide()">❮</button>
+      <button onclick="nextSlide()">❯</button>
+    </div>
+
+    <div class="dots">
+      <span class="dot" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+  </section>
+
+
+<!-- FEATURES SECTION -->
+  <section class="features" id="features">
+    <div class="feature-list">
+      <div class="feature">
+            <img src="img/features/f1.png" alt="f1">
+            <h6>Easy Booking</h6><hr>
+            <p>Book your next place in just a few clicks - no paperwork headaches.</p>
+        </div>
+        <div class="feature">
+            <img src="img/features/f5.png" alt="f1">
+            <h6>Verified Listings</h6><hr>
+            <p>We personally verify every apartment before it goes online.</p>
+        </div>
+        <div class="feature">
+            <img src="img/features/f6.png" alt="f1">
+            <h6>24/7 Support</h6><hr>
+            <p>Our support team is always here to help with any questions.</p>
+        </div>
+    </div>
+  </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>Available apartments</h2>
+        <p>Affordable, Comfortable Stays</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>4 bedroom detached bungalow</span>
+                    <h5>Suncity Estate Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦300,000 per night</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Sunset View Apartment</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Luxury Penthouse</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Family Friendly Apartment</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f7.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f8.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1"></section>
+
+    <section id="product1" class="section-p1">
+        <h2>Our popular homes</h2>
+        <p>Browse our available spaces below</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f7.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f8.jpg" alt="">
+                <div class="des">
+                    <span>Guest favorite</span>
+                    <h5>Apartment in Abuja</h5>
+                    <div class="stars">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <h4>₦50,000 for 2 nights</h4>
+                </div>
+                <a href="#"><i class="fas fa-heart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>hangover tonight</h2>
+            <span>the best classic bedroom for 2 at wuse</span>
+            <button class="white">Full Details</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>valentine season</h2>
+            <span>the best classic bedroom for 2 at wuse</span>
+            <button class="white">Full Details</button>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>PREMIUM SPACE</h2>
+            <h3>with an extra -50% OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>PREMIUM QUALITY EXPERIENCE</h2>
+            <h3>Spring / Summer 2025</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>BEDROOM</h2>
+            <h3>Sweet Dreams</h3>
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Join Our Newsletter Today!</h4>
+            <p>Get E-mail updates about our latest rooms and <span>special offers</span></p>
+        </div>
+        
+        <form action="https://formspree.io/f/mldbyaak" method="POST" class="form">
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit" class="normal">Subscribe</button>
+        </form>
+    </section>
+
+    
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> House Plot 101 Wuse, Zone 7 Abuja Nigeria</p>
+            <p><strong>Phone: </strong> +234 8026 246 987 /(+234) 80 2624 6987</p>
+            <p><strong>Hours: </strong> 09:00 AM - 05:00 AM, Mon - Sun</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f icon"></i>
+                    <i class="fab fa-twitter icon"></i>
+                    <i class="fab fa-instagram icon"></i>
+                    <i class="fab fa-tiktok icon"></i>
+                    <i class="fab fa-youtube icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>Support</h4>
+            <a href="#">Sharing</a>
+            <a href="#">Viewing</a>
+            <a href="#">Software Dev</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Our Partners</h4>
+            <p>Meet some of our partners</p>
+            <div class="row">
+                <img src="img/pay/Logoarmfct.jpg" alt="">
+                <img src="img/pay/Rotary.jpg" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025, Masterpiece. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- <script src="js/all.min.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
