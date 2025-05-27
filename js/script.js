@@ -23,22 +23,13 @@ if(closeIcon) {
     const subtext = document.getElementById('hero-subtext');
 
     const slideData = [
-      {
-        heading: 'Find Your Next Apartment',
-        subtext: 'Simple, secure, and verified rentals across the city.'
-      },
-      {
-        heading: 'Live Where You Love',
-        subtext: 'Choose from top-rated neighborhoods and hosts.'
-      },
-      {
-        heading: 'Move In With Confidence',
-        subtext: 'All listings reviewed for quality and safety.'
-      }
+      { heading: 'Find Your Next Apartment', subtext: 'Simple, secure, and verified rentals across the city.'},
+      { heading: 'Live Where You Love', subtext: 'Choose from top-rated neighborhoods and hosts.'},
+      { heading: 'Move In With Confidence', subtext: 'All listings reviewed for quality and safety.'}
     ];
 
     let currentSlide = 0;
-    let slideInterval = setInterval(nextSlide, 6000);
+    let slideInterval = setInterval(nextSlide, 3000);
 
     function showSlide(index) {
       slides.forEach((slide, i) => {
